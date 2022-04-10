@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .4);
+    background-color: #CFCFCF;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #5c6928;
+  }
+
+/* Header */
+.add__cart--btn>svg {
+    fill: #fff;
+    transition: all 0.05s;
+}
+
+.add__cart--btn>svg:hover {
+    fill: rgb(240, 240, 240);
+    transform: scale(1.1);
+}
+
+/* Home */
+.home__container {
+    margin: 0 auto;
+}
+
+.home__btn--1,
+.home__btn--2 {
+    padding: 1rem 2rem;
+}
+
+/* Products */
+.products__container {
+    margin: 0 auto;
+}
+
+.category__name {
+    margin: 0 auto;
+    padding: 0.15rem 0.25rem;
+}
+
+/* Footer */
+.footer__container {
+    margin: 0 auto;
+}
+
+.footer__icons>svg {
+    fill: #57adad;
+    transition: all 0.5s;
+}
+
+.footer__icons>svg:hover {
+    fill: #fff;
+}
+
+.footer__btn {
+    padding: 1rem 2rem;
+}
