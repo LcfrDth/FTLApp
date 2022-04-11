@@ -53,6 +53,16 @@
     padding: 0.15rem 0.25rem;
 }
 
+.add__cart__products--btn>svg {
+    fill: #829536;
+    transition: all 0.05s;
+}
+
+.add__cart__products--btn>svg:hover {
+    fill: #5d6b25;
+    stroke: #829536;
+}
+
 /* Footer */
 .footer__container {
     margin: 0 auto;
