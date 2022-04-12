@@ -23,6 +23,11 @@ const Landing = () => {
     const response = await commerce.cart.retrieve();
     setCartData(response);
   };
+
+  const addProduct = async (productId, quantity) => {
+    const response = await commerce.cart.add(productId, quantity);
+    setCartData(response.cart);
+  };
   
   useEffect(() => {
     getProducts();
@@ -32,7 +37,7 @@ const Landing = () => {
   return (
     <>
       <Header cartData={cartData} />
-      <Home products={products} />
+      <Home products={products} addProduct={addProduct} />
       <Footer />
     </>
   )

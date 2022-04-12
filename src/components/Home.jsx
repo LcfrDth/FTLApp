@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 /* Images */
 import logo from '../assets/logo.png';
 
-const Home = ({ products }) => {
+const Home = ({ products, addProduct }) => {
 
     return (
         <>
@@ -66,7 +66,7 @@ const Home = ({ products }) => {
 
             <br /><br /><br /><br />
 
-            <Products products={products} />
+            <Products products={products} addProduct={addProduct} />
         </>
     )
 }
