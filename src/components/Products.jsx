@@ -1,24 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
-// Commerce JS
-import { commerce } from '../lib/Commerce';
-
 /* Icons */
 import { AddtoCartIcon } from '../subComponents/AllSVG';
 
-const Products = () => {
-
-    /* State Management */
-    const [products, setProducts] = useState([]);
-
-    const getProducts = async () => {
-        const response = await commerce.products.list();
-        setProducts((response && response.data) || []);
-    }
-
-    useEffect(() => {
-        getProducts();
-    }, []);
+const Products = ({products}) => {
 
     console.log({ products });
 
@@ -36,7 +21,10 @@ const Products = () => {
                         <br />
                         <span className="font-semibold text-gray-700 text-xl">{item.price.formatted_with_symbol}</span>
                         <br />
-                        <div className="add__cart__products--btn flex justify-center align-items-center gap-4 cursor-pointer">
+                        <div
+                            onClick={{}}
+                            className="add__cart__products--btn flex justify-center align-items-center gap-4 cursor-pointer"
+                        >
                             <AddtoCartIcon /> <span className="font-semibold text-lg text-gray-700">Add to Cart</span>
                         </div>
                         <br />

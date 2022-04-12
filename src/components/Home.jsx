@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 /* Components */
@@ -10,7 +10,8 @@ import { motion } from 'framer-motion';
 /* Images */
 import logo from '../assets/logo.png';
 
-const Home = () => {
+const Home = ({ products }) => {
+
     return (
         <>
             <div className="bg-[#F8F9FD] min-h-[90vh]">
@@ -65,7 +66,7 @@ const Home = () => {
 
             <br /><br /><br /><br />
 
-            <Products />
+            <Products products={products} />
         </>
     )
 }
