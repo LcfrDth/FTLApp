@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 /* Icons */
 import { AddtoCartIcon } from '../subComponents/AllSVG';
 
-const Products = ({products}) => {
+const Products = ({ products, addProduct }) => {
 
     console.log({ products });
 
@@ -22,7 +22,9 @@ const Products = ({products}) => {
                         <span className="font-semibold text-gray-700 text-xl">{item.price.formatted_with_symbol}</span>
                         <br />
                         <div
-                            onClick={{}}
+                            onClick={() => {
+                                addProduct(item.id, 1);
+                            }}
                             className="add__cart__products--btn flex justify-center align-items-center gap-4 cursor-pointer"
                         >
                             <AddtoCartIcon /> <span className="font-semibold text-lg text-gray-700">Add to Cart</span>
