@@ -15,7 +15,7 @@ const Routes = () => {
   /* State Management */
   const [products, setProducts] = useState([]);
   const [cartData, setCartData] = useState({});
-    
+  
   /* Functions */
   const getProducts = async () => {
     const response = await commerce.products.list();
@@ -24,22 +24,27 @@ const Routes = () => {
     
   const getCartData = async () => {
     const response = await commerce.cart.retrieve();
-    setCartData(response);
+    setCartData(response)
+    localStorage.setItem("cartItem", JSON.stringify(response.line_items));
   };
 
   const handleEmptyData = async () => {
     const response = await commerce.cart.empty();
     setCartData(response.cart);
+    localStorage.removeItem("cartItem");
+    window.location = "/"
   };
   
   const addProduct = async (productId, quantity) => {
     const response = await commerce.cart.add(productId, quantity);
-    setCartData(response.cart);
+    setCartData(response.cart.line_items);
+    localStorage.setItem("cartItem", JSON.stringify(response.cart.line_items));
   };
 
   const updateData = async (productId, quantity) => {
     const response = await commerce.cart.update(productId, { quantity });
-    setCartData(response.cart);
+    setCartData(response.cart.line_items);
+    // localStorage.setItem("cartItem", JSON.stringify(response.cart));
   };
 
   const removeItem = async (itemId) => {
@@ -47,6 +52,8 @@ const Routes = () => {
     setCartData(response.cart);
   };
     
+
+
   /* useEffect */
   useEffect(() => {
     getProducts();
@@ -68,10 +75,9 @@ const Routes = () => {
         {/* Cart Component */}
         <Route exact path="/cart">
           <Cart 
-            cartData={cartData}
             updateData={updateData}
             handleEmptyData={handleEmptyData}
-            removeItem={removeItem}
+            removeItem={removeItem}    
           />
         </Route>
 
