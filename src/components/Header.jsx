@@ -17,12 +17,12 @@ const Header = ({ cartData }) => {
                     Menu Icon
                 </button>
                 {/* Add to Cart Icon */}
-                <button
+                <NavLink to="/cart"
                     className="mt-1 text-white add__cart--btn flex justify-center gap-4"
                 >
                     <AddtoCartIcon className="" />
-                    <span className="-mt-4 text-lg bg-[#57ADAD] font-semibold rounded-[50%] px-4 py-1">{cartData.total_items}</span>
-                </button>
+                    <span className="-mt-4 text-lg text-[#99f1f1] font-semibold">{cartData.total_items}</span>
+                </NavLink>
             </header>
         </>
     )
