@@ -11,6 +11,7 @@ import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Header from './components/Header';
 import Cart from './components/Cart/Cart';
 import Products from './components/Products/Products';
+import Checkout from './components/Checkout/Checkout';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
   /* State Management */
   const [products, setProducts] = useState([]);
   const [cartData, setCartData] = useState({});
+  const [orderInfo, setOrderInfo] = useState({});
+  const [orderError, setOrderError] = useState("");
   
   /* Functions */
   const getProducts = async () => {
@@ -50,12 +53,22 @@ const App = () => {
     setCartData(response.cart);
   };
 
-  const refreshBasket = async () => {
+  const refreshCart = async () => {
     const newCartData = await commerce.cart.refresh();
     setCartData(newCartData);
   };
     
-
+  const handleCheckout = async (checkoutId, orderData) => {
+    try {
+      setOrderInfo(orderData);
+      refreshCart();
+    } catch (error) {
+      setOrderError(
+        (error.data && error.data.error && error.data.error.message) ||
+          "There is an error occurred"
+      );
+    }
+  };
 
   /* useEffect */
   useEffect(() => {
@@ -95,6 +108,14 @@ const App = () => {
             </Route>
 
             {/* Checkout Component */}
+            <Route exact path="/checkout">
+              <Checkout 
+                orderInfo={orderInfo}
+                orderError={orderError}
+                cartData={cartData}
+                handleCheckout={handleCheckout}
+              />
+            </Route>
 
         </Switch>
         <Footer />
