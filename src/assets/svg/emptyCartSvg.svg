@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="freepik_stories-add-to-cart" class="animated" version="1.1" viewBox="0 0 500 500">
+  <style>
+    @keyframes slideLeft{0%{opacity:0;transform:translateX(-30px)}}@keyframes slideRight{0%{opacity:0;transform:translateX(30px)}}@keyframes shake{10%,90%{transform:translate3d(-1px,0,0)}20%,80%{transform:translate3d(2px,0,0)}30%,50%,70%{transform:translate3d(-4px,0,0)}40%,60%{transform:translate3d(4px,0,0)}}svg#freepik_stories-add-to-cart:not(.animated) .animable{opacity:0}
+  </style>
+  <g id="freepik--Floor--inject-1" class="animable">
+    <ellipse id="freepik--floor--inject-1" cx="249.81" cy="337.53" fill="#f5f5f5" class="animable" rx="238.19" ry="137.52" transform-origin="249.81px 337.53px"/>
+  </g>
+  <g id="freepik--Cart--inject-1" class="animable" style="animation:1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) slideLeft;animation-delay:0s">
+    <g id="freepik--cart--inject-1" class="animable">
+      <path id="elgw2osoak2up" fill="#37474f" d="M298.2 308.63a14.86 14.86 0 0 0-6.66-11.7c-1.94-1.14-3.69-1.19-4.93-.38l-4.55 2.56 9.55 16.47 4.51-2.56c1.26-.69 2.06-2.2 2.08-4.39Z" class="animable" transform-origin="290.13px 305.79px"/>
+      <path id="elkqr94cg4h9m" fill="#455a64" d="M286.81 299.61a14.91 14.91 0 0 1 6.66 11.7c0 4.3-3.06 6-6.76 3.85a14.91 14.91 0 0 1-6.66-11.7c.03-4.3 3.06-6.02 6.76-3.85Z" class="animable" transform-origin="286.76px 307.381px"/>
+      <path id="elsutqif61gio" fill="#263238" d="M284.49 306.06c0-1.68 1-2.45 2.29-1.71a5.43 5.43 0 0 1 2.25 4.37c0 1.68-1 2.44-2.29 1.71a5.48 5.48 0 0 1-2.25-4.37Z" class="animable" transform-origin="286.76px 307.388px"/>
+      <g id="eluallva8bj2">
+        <path id="el0ndetoflkf6" d="M293.47 311.31a12.35 12.35 0 0 0-.92-4.5L281 300.1a5.78 5.78 0 0 0-.94 3.36v.16l13.4 7.78s.01-.06.01-.09Z" class="animable" opacity=".15" transform-origin="286.763px 305.75px"/>
+      </g>
+      <path id="elfl014e1ygxw" fill="#455a64" d="M250.32 345.22a14.41 14.41 0 0 1-7.12-1.28l-63-36.31c-3.81-1.92-8.09-6.9-8.36-11.62l-1.93-44.91 3.51-.2 1.94 44.92c.18 3.2 3.53 7.22 6.41 8.66l63.05 36.32a12.11 12.11 0 0 0 10.58-.61l42-24.22c1-.66 1.59-1.45 1.55-2.12s-.67-1.33-1.74-1.87l-67.49-39.18c-3.8-1.91-8.06-6.9-8.33-11.62l-.94-24.91 3.51-.19.94 24.9c.18 3.22 3.53 7.23 6.4 8.67l67.49 39.19c2.25 1.13 3.55 2.84 3.67 4.81s-1 3.88-3.13 5.26l-42 24.22a14.57 14.57 0 0 1-7.01 2.09Z" class="animable" transform-origin="236.189px 290.671px"/>
+      <path id="elfhkaz4em5g" fill="#37474f" d="M239 344.21a14.86 14.86 0 0 0-6.66-11.7c-1.94-1.14-3.69-1.2-4.92-.38l-4.56 2.56 9.55 16.47 4.51-2.56c1.24-.69 2.08-2.2 2.08-4.39Z" class="animable" transform-origin="230.93px 341.368px"/>
+      <path id="ele594gvdtc2p" fill="#455a64" d="M227.59 335.19a14.86 14.86 0 0 1 6.66 11.71c0 4.29-3.05 6-6.76 3.84a14.88 14.88 0 0 1-6.65-11.7c.03-4.29 3.05-6.04 6.75-3.85Z" class="animable" transform-origin="227.545px 342.959px"/>
+      <path id="elzoxb5mwb1rd" fill="#263238" d="M225.27 341.64c0-1.68 1-2.45 2.29-1.71a5.41 5.41 0 0 1 2.25 4.37c0 1.67-1 2.44-2.28 1.7a5.44 5.44 0 0 1-2.26-4.36Z" class="animable" transform-origin="227.54px 342.965px"/>
+      <path id="el5urumokz00m" fill="#37474f" d="M192.42 317.36a14.86 14.86 0 0 0-6.63-11.71c-1.95-1.14-3.69-1.2-4.93-.39l-4.56 2.55 9.52 16.49 4.52-2.56c1.26-.68 2.06-2.19 2.08-4.38Z" class="animable" transform-origin="184.36px 314.507px"/>
+      <path id="el52ev0xgqnwj" fill="#455a64" d="M181.05 308.33a14.88 14.88 0 0 1 6.64 11.67c0 4.29-3.07 6-6.77 3.83a14.86 14.86 0 0 1-6.63-11.71c.03-4.26 3.06-5.97 6.76-3.79Z" class="animable" transform-origin="180.99px 316.076px"/>
+      <path id="elwp9rmoehalc" fill="#263238" d="M178.72 314.76c0-1.67 1-2.44 2.29-1.7a5.45 5.45 0 0 1 2.25 4.37c0 1.68-1 2.44-2.3 1.71a5.49 5.49 0 0 1-2.24-4.38Z" class="animable" transform-origin="180.99px 316.098px"/>
+      <path id="elnd804dyzbxj" fill="#455a64" d="M162.38 196.68a11.71 11.71 0 0 1 4.49-12.46l41.91-23.69c3.81-2.5 8-.76 9.32 3.59l2.91 9.43-2.88 1.68-3.13-9.53a3.17 3.17 0 0 0-5-1.75L169.19 187a7.69 7.69 0 0 0-2.93 8l2.46 9.05-3.43 2Z" class="animable" transform-origin="191.505px 182.714px"/>
+      <path id="elukuuo7mfhb" fill="#78c28d" d="m227.18 242.12-56.3 32.51 82.28 47.5 56.3-32.51-82.28-47.5z" class="animable" transform-origin="240.17px 282.125px"/>
+      <g id="elmj6wpsxmhvg">
+        <path id="elzl3o3h1efqj" d="m227.18 242.12-56.3 32.51 82.28 47.5 56.3-32.51-82.28-47.5z" class="animable" opacity=".5" transform-origin="240.17px 282.125px"/>
+      </g>
+      <path id="elsxal8avz5pl" fill="#78c28d" d="m165.29 206.11 55.72-32.55 6.17 68.56-56.3 32.51-5.59-68.52z" class="animable" transform-origin="196.235px 224.095px"/>
+      <g id="elkjfmngcp4t8">
+        <path id="els5ygd9yja8h" d="m165.29 206.11 55.72-32.55 6.17 68.56-56.3 32.51-5.59-68.52z" class="animable" opacity=".35" transform-origin="196.235px 224.095px"/>
+      </g>
+      <path id="el2y3fca4g0ix" fill="#78c28d" d="m221 173.56 6.17 68.56 82.28 47.5 13-57.51Zm28.77 65.92a4.73 4.73 0 0 1-5.9-3.06l-13.6-35.29a4.44 4.44 0 1 1 8.23-3.13l13.6 35.29a4.72 4.72 0 0 1-2.32 6.19Zm25.69 12.08a4.71 4.71 0 0 1-5.9-3.05L256 213.22a4.44 4.44 0 1 1 8.22-3.17l13.6 35.29a4.71 4.71 0 0 1-2.35 6.22Zm25.69 12.09a4.71 4.71 0 0 1-5.9-3l-13.59-35.29a4.43 4.43 0 1 1 8.21-3.17l13.6 35.29a4.71 4.71 0 0 1-2.31 6.17Z" class="animable" transform-origin="271.725px 231.59px"/>
+      <g id="elk75bwerpak">
+        <path id="el4ca29sw0494" d="m221 173.56 6.17 68.56 82.28 47.5 13-57.51Zm28.77 65.92a4.73 4.73 0 0 1-5.9-3.06l-13.6-35.29a4.44 4.44 0 1 1 8.23-3.13l13.6 35.29a4.72 4.72 0 0 1-2.32 6.19Zm25.69 12.08a4.71 4.71 0 0 1-5.9-3.05L256 213.22a4.44 4.44 0 1 1 8.22-3.17l13.6 35.29a4.71 4.71 0 0 1-2.35 6.22Zm25.69 12.09a4.71 4.71 0 0 1-5.9-3l-13.59-35.29a4.43 4.43 0 1 1 8.21-3.17l13.6 35.29a4.71 4.71 0 0 1-2.31 6.17Z" class="animable" opacity=".23" transform-origin="271.725px 231.59px"/>
+      </g>
+      <path id="els82loqolna" fill="#78c28d" d="m165.29 206.11 5.59 68.52 82.28 47.5 13-57.5Zm32.48 67.45a4.73 4.73 0 0 1-5.9-3.06l-13.59-35.29a4.43 4.43 0 1 1 8.21-3.16l13.6 35.28a4.72 4.72 0 0 1-2.32 6.23Zm25.69 12.08a4.71 4.71 0 0 1-5.9-3.05L204 247.3a4.44 4.44 0 1 1 8.22-3.17l13.59 35.29a4.71 4.71 0 0 1-2.35 6.22Zm25.69 12.09a4.7 4.7 0 0 1-5.89-3.05l-13.6-35.29a4.44 4.44 0 1 1 8.22-3.17l13.59 35.29a4.71 4.71 0 0 1-2.32 6.22Z" class="animable" transform-origin="215.725px 264.12px"/>
+      <g id="elum1wmjcfw4r">
+        <g id="eljicqblnzsy" class="animable" opacity=".15">
+          <path id="elizbdjhbvi2l" d="m165.29 206.11 5.59 68.52 82.28 47.5 13-57.5Zm32.48 67.45a4.73 4.73 0 0 1-5.9-3.06l-13.59-35.29a4.43 4.43 0 1 1 8.21-3.16l13.6 35.28a4.72 4.72 0 0 1-2.32 6.23Zm25.69 12.08a4.71 4.71 0 0 1-5.9-3.05L204 247.3a4.44 4.44 0 1 1 8.22-3.17l13.59 35.29a4.71 4.71 0 0 1-2.35 6.22Zm25.69 12.09a4.7 4.7 0 0 1-5.89-3.05l-13.6-35.29a4.44 4.44 0 1 1 8.22-3.17l13.59 35.29a4.71 4.71 0 0 1-2.32 6.22Z" class="animable" transform-origin="215.725px 264.12px"/>
+        </g>
+      </g>
+      <path id="els5d5dsfo75j" fill="#78c28d" d="m266.15 264.63 56.3-32.51-12.99 57.51-56.3 32.5 12.99-57.5z" class="animable" transform-origin="287.805px 277.125px"/>
+      <g id="elwo1ksbp6mlm">
+        <path id="elba67v8fpls5" d="m266.15 264.63 56.3-32.51-12.99 57.51-56.3 32.5 12.99-57.5z" class="animable" opacity=".4" transform-origin="287.805px 277.125px"/>
+      </g>
+    </g>
+  </g>
+  <g id="freepik--Bag--inject-1" class="animable animator-active" style="animation:1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) slideRight,1.5s Infinite linear shake;animation-delay:0s,1s">
+    <g id="freepik--bag--inject-1" class="animable">
+      <path id="elbvg38i9vs7o" fill="#78c28d" d="m177.57 155.77 56.38-32.55-4.7-67.82-51.68 29.84v70.53z" class="animable" transform-origin="205.76px 105.585px"/>
+      <g id="elbop9iduhne">
+        <path id="eljqzvya4r4ho" fill="#fff" d="m177.57 155.77 56.38-32.55-4.7-67.82-51.68 29.84v70.53z" class="animable" opacity=".6" transform-origin="205.76px 105.585px"/>
+      </g>
+      <path id="eljebkv8unjis" fill="#78c28d" d="M177.57 85.24v-5.43l-14.1-2.71 51.68-29.84 4.7 8.14h9.4l-51.68 29.84z" class="animable" transform-origin="196.36px 66.25px"/>
+      <g id="el1zeb4okyi2">
+        <path id="el3wsb5axmeg" fill="#fff" d="M177.57 85.24v-5.43l-14.1-2.71 51.68-29.84 4.7 8.14h9.4l-51.68 29.84z" class="animable" opacity=".3" transform-origin="196.36px 66.25px"/>
+      </g>
+      <path id="elfi8ze3prd5c" fill="#78c28d" d="M215.15 47.26v16.28l4.7-2.71V55.4l-4.7-8.14z" class="animable" transform-origin="217.5px 55.4px"/>
+      <g id="elxsrs3oi3l6">
+        <path id="elwwpdtcneurn" d="M215.15 47.26v16.28l4.7-2.71V55.4l-4.7-8.14z" class="animable" opacity=".1" transform-origin="217.5px 55.4px"/>
+      </g>
+      <path id="elva77ndjzok" fill="#78c28d" d="M229.25 55.4h-9.4v5.43l9.4-5.43z" class="animable" transform-origin="224.55px 58.115px"/>
+      <g id="el7w1lev7t5me">
+        <path id="eltf2qb1vni4m" d="M229.25 55.4h-9.4v5.43l9.4-5.43z" class="animable" opacity=".2" transform-origin="224.55px 58.115px"/>
+      </g>
+      <path id="el1b614sfduq4" fill="#78c28d" d="m163.47 77.1-4.7 67.82 18.8 10.85V79.81l-14.1-2.71z" class="animable" transform-origin="168.17px 116.435px"/>
+      <g id="elu5xliqon8ih">
+        <path id="el1k390y78gs7" d="m163.47 77.1-4.7 67.82 18.8 10.85V79.81l-14.1-2.71z" class="animable" opacity=".1" transform-origin="168.17px 116.435px"/>
+      </g>
+      <path id="el0q650wsqxbsl" fill="#78c28d" d="m177.57 79.81-9.4 70.53 9.4 5.43V79.81z" class="animable" transform-origin="172.87px 117.79px"/>
+      <g id="elk11gmzw9utn">
+        <path id="elyh9qu5b4y99" d="m177.57 79.81-9.4 70.53 9.4 5.43V79.81z" class="animable" opacity=".2" transform-origin="172.87px 117.79px"/>
+      </g>
+      <path id="elj323payob5" fill="#78c28d" d="m177.57 155.77-8.62-11.31-10.18.46 18.8 10.85z" class="animable" transform-origin="168.17px 150.115px"/>
+      <path id="elj2sgm1xoded" fill="#37474f" d="M178.71 76.38c0 .92.64 1.3 1.44.84a3.22 3.22 0 0 0 1.45-2.51c0-.92-.65-1.3-1.45-.84a3.21 3.21 0 0 0-1.44 2.51Z" class="animable" transform-origin="180.155px 75.545px"/>
+      <path id="elvsbzhat85m" fill="#37474f" d="M197.94 65.53c0 .92.65 1.3 1.45.83a3.19 3.19 0 0 0 1.45-2.5c0-.92-.65-1.3-1.45-.84a3.21 3.21 0 0 0-1.45 2.51Z" class="animable" transform-origin="199.39px 64.6932px"/>
+      <path id="elpjpzjnrwgdc" fill="#37474f" d="M180.15 75.33a.49.49 0 0 1-.48-.48V63c0-5.17 4.42-11.92 9.86-15.06 3-1.75 5.9-2.09 7.89-.94 1.59.91 2.46 2.69 2.46 5v12a.49.49 0 0 1-.49.48.48.48 0 0 1-.48-.48V52c0-2-.69-3.44-2-4.18-1.68-1-4.21-.63-6.92.94-5.17 3-9.38 9.36-9.38 14.22v11.87a.49.49 0 0 1-.46.48Z" class="animable" transform-origin="189.775px 60.8298px"/>
+      <path id="el3hobys2ti" fill="#455a64" d="M193 84.52c0 .92.65 1.29 1.45.83a3.19 3.19 0 0 0 1.45-2.5c0-.92-.65-1.3-1.45-.84a3.21 3.21 0 0 0-1.45 2.51Z" class="animable" transform-origin="194.45px 83.681px"/>
+      <path id="ele3csdf52ue" fill="#455a64" d="M212.26 73.67c0 .92.65 1.29 1.45.83a3.19 3.19 0 0 0 1.45-2.5c0-.93-.65-1.3-1.45-.84a3.19 3.19 0 0 0-1.45 2.51Z" class="animable" transform-origin="213.71px 72.8301px"/>
+      <path id="elmea0xrox5g" fill="#455a64" d="M194.47 83.47A.48.48 0 0 1 194 83V71.13c0-5.16 4.42-11.91 9.86-15 3-1.75 5.9-2.09 7.89-.94 1.58.91 2.45 2.69 2.45 5v12a.48.48 0 0 1-.48.49.49.49 0 0 1-.49-.49v-12c0-2-.68-3.43-2-4.17-1.68-1-4.2-.63-6.92.94-5.17 3-9.37 9.36-9.37 14.21V83a.49.49 0 0 1-.47.47Z" class="animable" transform-origin="204.1px 68.9948px"/>
+    </g>
+  </g>
+  <defs>
+    <filter id="active" height="200%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="DILATED"/>
+      <feFlood flood-color="#32DFEC" flood-opacity="1" result="PINK"/>
+      <feComposite in="PINK" in2="DILATED" operator="in" result="OUTLINE"/>
+      <feMerge>
+        <feMergeNode in="OUTLINE"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="hover" height="200%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="DILATED"/>
+      <feFlood flood-color="red" flood-opacity=".5" result="PINK"/>
+      <feComposite in="PINK" in2="DILATED" operator="in" result="OUTLINE"/>
+      <feMerge>
+        <feMergeNode in="OUTLINE"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+      <feColorMatrix values="0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <defs>
+    <clipPath id="freepik--clip-path--inject-1">
+      <path fill="#ba68c8" d="M183.84 408.51 173 414.77a3.24 3.24 0 0 1-2.94 0l-13.23-7.54a.89.89 0 0 1 0-1.69l10.84-6.26a3.24 3.24 0 0 1 2.94 0c3.58 2.07 9.64 5.46 13.22 7.54a.89.89 0 0 1 .01 1.69Z"/>
+    </clipPath>
+  </defs>
+</svg>

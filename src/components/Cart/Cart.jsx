@@ -44,8 +44,8 @@ const Cart = ({ cartData, updateData, handleEmptyData, removeItem }) => {
                     )
                 })}
             </div>
-            <br />
-            <div className="products__container actions max-w-7xl flex gap-8">
+            <br /><br />
+            <div className="products__container actions max-w-7xl flex justify-center gap-8">
                 <button
                     onClick={handleEmptyData}
                     className="bg-[#953636] border-[1px] border-[#953636] text-white text-xl font-semibold p-4 duration-500 hover:bg-transparent hover:text-[#953636]"

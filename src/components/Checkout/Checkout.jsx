@@ -224,12 +224,11 @@ const Checkout = ({ cartData, orderInfo, orderError, handleCheckout }) => {
 
     return (
         <>
-            <div className="checkout">
+            <br /><br /><br /><br />
+            <h1 className="font-bold text-4xl text-center uppercase text-[#57ADAD]">Checkout Items</h1>
+            <div className="checkout mb-16">
                 <Container>
                     <Paper className="paper" elevation={3}>
-                        <Typography align="center" variant="h5" gutterBottom>
-                            Checkout
-                        </Typography>
                         {checkoutStep !== "confirmation" && (
                             <Stepper
                                 className="stepper"
@@ -258,7 +257,6 @@ const Checkout = ({ cartData, orderInfo, orderError, handleCheckout }) => {
                     </Paper>
                 </Container>
             </div>
-            <br /><br /><br /><br />
         </>
     );
 }
