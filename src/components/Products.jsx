@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 /* Icons */
 import { AddtoCartIcon } from '../subComponents/AllSVG';

@@ -1,8 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
-/* Components */
-import Products from './Products';
 
 // Framer Motion
 import { motion } from 'framer-motion';
@@ -38,7 +35,7 @@ const Home = ({ products, addProduct }) => {
                         </motion.p>
                         {/* Buttons */}
                         <motion.div
-                            className="home__buttons flex gap-4 mt-8"
+                            className="home__buttons flex gap-4 mt-8 custom:justify-center"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ type: 'spring', duration: 1.05, delay: 1.25 }}
@@ -65,8 +62,6 @@ const Home = ({ products, addProduct }) => {
             </div>
 
             <br /><br /><br /><br />
-
-            <Products products={products} addProduct={addProduct} />
         </>
     )
 }
